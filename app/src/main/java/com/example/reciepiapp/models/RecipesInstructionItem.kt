@@ -1,6 +1,6 @@
 package com.example.reciepiapp.models
 
-data class RecipesDiscriptionItem(
+data class RecipesInstructionItem(
     val name: String,
     val steps: List<Step>
 )

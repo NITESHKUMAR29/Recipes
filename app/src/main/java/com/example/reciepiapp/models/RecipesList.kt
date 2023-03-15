@@ -1,8 +1,8 @@
 package com.example.reciepiapp.models
 
-data class Recipes(
+data class RecipesList(
     val number: Int,
     val offset: Int,
-    val results: List<Result>,
+    val results: List<Results>,
     val totalResults: Int
 )

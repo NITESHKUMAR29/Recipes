@@ -1,8 +1,7 @@
 package com.example.reciepiapp.models
 
-data class Result(
+data class SearchRecipesItem(
     val id: Int,
-    val image: String,
     val imageType: String,
     val title: String
 )
