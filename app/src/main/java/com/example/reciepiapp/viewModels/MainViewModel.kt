@@ -8,7 +8,7 @@ import com.example.reciepiapp.repository.Repository
 
 class MainViewModel(private val repository: Repository):ViewModel(){
 
-    private val error=MutableLiveData<Throwable>()
+    val error=MutableLiveData<Throwable>()
 
     fun getRecipesList(totalNumber:Int,apiKey:String):LiveData<RecipesList>{
         val data=MutableLiveData<RecipesList>()
